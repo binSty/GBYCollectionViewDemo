@@ -1,2 +1,4 @@
-# GBYCollectionViewDemo
+##### GBYCollectionViewDemo
 IGLstKit模仿支付宝首页页面布局
+
+demo简单了解一下IGListKit库的布局方式
