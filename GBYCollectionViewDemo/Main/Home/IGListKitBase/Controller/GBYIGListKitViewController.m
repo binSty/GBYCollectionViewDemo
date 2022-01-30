@@ -16,7 +16,7 @@
 #import "GBYLevelModel.h"
 #import "GBYHomeConst.h"
 
-@interface GBYIGListKitViewController ()
+@interface GBYIGListKitViewController () <UIScrollViewDelegate>
 
 @property (nonatomic, strong) GBYIGListKitViewModel *viewModel;
 
@@ -28,6 +28,7 @@
     [super viewDidLoad];
     
     self.viewModel = [[GBYIGListKitViewModel alloc] init];
+    
 }
 
 - (void)iglistCreateCollectionView {
